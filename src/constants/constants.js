@@ -4,8 +4,7 @@ export const projects = [
     description: "",
     image: '/images/Twouitteur.png',
     tags: ['PHP'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://github.com/Theyozz/PHP_Project',
     id: 0,
   },
   {
@@ -13,8 +12,7 @@ export const projects = [
     description: "",
     image: '/images/Raisinceramicc.png',
     tags: ['Wordpress'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://raisinceramic.com/',
     id: 1,
   },
   {
@@ -22,8 +20,7 @@ export const projects = [
     description:"",
     image: '/images/MaelieR.png',
     tags: ['Wordpress'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://maelie-richarte.fr/',
     id: 2,
   }
 ];
