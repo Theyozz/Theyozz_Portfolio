@@ -4,7 +4,7 @@ export const projects = [
     description: "",
     image: '/images/Twouitteur.png',
     tags: ['PHP'],
-    visit: 'https://github.com/Theyozz/PHP_Project',
+    visit: 'http://twouitteur.atwebpages.com/login.php',
     id: 0,
   },
   {

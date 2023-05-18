@@ -20,7 +20,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            PHP, Symfony and Databases
+            PHP, Symfony et Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,7 +44,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            tools like Figma
+            Figma et Canva
           </ListParagraph>
         </ListContainer>
       </ListItem>
