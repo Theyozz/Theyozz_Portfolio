@@ -6,6 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import Hobbies from '../components/Hobbies/Hobbies';
 
 const Home = () => {
   return (
