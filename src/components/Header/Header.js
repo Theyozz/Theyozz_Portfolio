@@ -5,13 +5,11 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
-        </a>
+      <Link href="/" style={{ display: 'flex', alignItems: 'center', color: "white", textDecoration: "none" }}>
+        <DiCssdeck size="3rem" /> <span>Portfolio</span>
       </Link>
     </Div1>
     <Div2>
@@ -24,25 +22,25 @@ const Header = () =>  (
         <Link href="#tech">
           <NavLink>Compétences</NavLink>
         </Link>
-      </li>        
+      </li>
       <li>
         <Link href="#about">
           <NavLink>Moi</NavLink>
         </Link>
-      </li>        
+      </li>
     </Div2>
-      <Div3>
-        <SocialIcons href="https://github.com/Theyozz" target='blank'>
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/th%C3%A9o-vieilledent-maurin/" target='blank'>
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://twitter.com/Theyozz_" target='blank'>
-          <AiFillTwitterSquare size="3rem"/>
-        </SocialIcons>
-      </Div3>
-    </Container>
+    <Div3>
+      <SocialIcons href="https://github.com/Theyozz" target='blank'>
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/th%C3%A9o-vieilledent-maurin/" target='blank'>
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://twitter.com/Theyozz_" target='blank'>
+        <AiFillTwitterSquare size="3rem" />
+      </SocialIcons>
+    </Div3>
+  </Container>
 );
 
 export default Header;

@@ -13,12 +13,12 @@ const Hero = (props) => (
           VIEILLEDENT-MAURIN Théo
         </SectionTitle>
         <SectionText>
-        Actuellement en formation de développeur web (BAC+2), je suis à la recherche d'une opportunité d'alternance dans le but de combiner ma formation théorique avec une expérience pratique au sein d'une entreprise.<br/><br/>
+          Ayant récemment obtenu mon Mastère en Ingénierie Logicielle, je suis ouvert à toute opportunité de collaboration professionnelle afin de mettre mes compétences en pratique et contribuer à des projets innovants.<br /><br />
         </SectionText>
-        <Link href={"images/CV_Vieilledent-Maurin.pdf"}>
+        <Link href={"images/CV_ThéoVM.pdf"} legacyBehavior>
           <a target='blank'>
             <Button onClick={props.handleClick}>
-            Telecharger CV
+              Telecharger CV
             </Button>
           </a>
         </Link>
