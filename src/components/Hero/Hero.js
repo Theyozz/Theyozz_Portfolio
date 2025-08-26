@@ -10,7 +10,7 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          VIEILLEDENT-MAURIN Théo
+          VIEILLEDENT-MAURIN Théoo
         </SectionTitle>
         <SectionText>
           Actuellement en cours de validation de mon Mastère en Ingénierie Logicielle, je suis ouvert à toute opportunité de collaboration professionnelle afin de mettre mes compétences en pratique et contribuer à des projets innovants.<br /><br />
