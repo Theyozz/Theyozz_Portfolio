@@ -13,7 +13,7 @@ const Hero = (props) => (
           VIEILLEDENT-MAURIN Théo
         </SectionTitle>
         <SectionText>
-          Ayant récemment obtenu mon Mastère en Ingénierie Logicielle, je suis ouvert à toute opportunité de collaboration professionnelle afin de mettre mes compétences en pratique et contribuer à des projets innovants.<br /><br />
+          Actuellement en cours de validation de mon Mastère en Ingénierie Logicielle, je suis ouvert à toute opportunité de collaboration professionnelle afin de mettre mes compétences en pratique et contribuer à des projets innovants.<br /><br />
         </SectionText>
         <Link href={"images/CV_ThéoVM.pdf"} legacyBehavior>
           <a target='blank'>

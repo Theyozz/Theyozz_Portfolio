@@ -10,11 +10,10 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Raisin Ceramic',
+    title: 'AutoB3',
     description: "",
-    image: '/images/Raisinceramicc.png',
-    tags: ['Wordpress'],
-    visit: 'https://raisinceramic.com/',
+    image: '',
+    tags: ['Python', 'Flask', 'PostgreSQL', 'Gitlab', 'CI/CD'],
     id: 1,
   },
   {
