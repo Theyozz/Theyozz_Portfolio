@@ -1,25 +1,24 @@
 import Head from '../components/Head/Head';
-import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
+import About from '../components/About/About';
+import Experience from '../components/Experience/Experience';
 import Projects from '../components/Projects/Projects';
-import Technologies from '../components/Technologies/Technologies';
+import Skills from '../components/Skills/Skills';
 import Timeline from '../components/TimeLine/TimeLine';
+import Certifications from '../components/Certifications/Certifications';
 import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
 
-const Home = () => {
-  return (
-    <Layout>
-      <Head />
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-    </Layout>
-  );
-};
+const Home = () => (
+  <Layout>
+    <Head />
+    <Hero />
+    <About />
+    <Experience />
+    <Projects />
+    <Skills />
+    <Timeline />
+    <Certifications />
+  </Layout>
+);
 
 export default Home;

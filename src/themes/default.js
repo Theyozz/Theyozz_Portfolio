@@ -1,22 +1,25 @@
 export default {
-  // Temp fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: "'Space Grotesk', sans-serif",
+    main: "'Inter', sans-serif",
+    mono: "'JetBrains Mono', monospace",
   },
-  // Colors for layout
   colors: {
-    primary1: "hsl(204,23.8%,95.9%)",
-    background1: "#0F1624",
-    accent1: "hsl(34.9,98.6%,72.9%)",
-    button: "hsl(205.1,100%,36.1%)",
-    background2: "hsl(232.7,27.3%,23.7%)",
+    background: '#08090d',
+    surface: 'rgba(255, 255, 255, 0.03)',
+    surfaceHover: 'rgba(255, 255, 255, 0.06)',
+    border: 'rgba(255, 255, 255, 0.08)',
+    borderHover: 'rgba(255, 255, 255, 0.18)',
+    text: '#eef0f6',
+    muted: '#9199ab',
+    accent: '#8b7bff',
+    accent2: '#3dd6f5',
+    success: '#34d399',
   },
-  // Breakpoints for responsive design
+  gradient: 'linear-gradient(120deg, #8b7bff 0%, #3dd6f5 100%)',
   breakpoints: {
     sm: 'screen and (max-width: 640px)',
-    md: 'screen and (max-width: 768px)',
-    lg: 'screen and (max-width: 1024px)',
-    xl: 'screen and (max-width: 1280px)'
+    md: 'screen and (max-width: 860px)',
+    lg: 'screen and (max-width: 1100px)',
   },
-}
+};
