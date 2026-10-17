@@ -6,7 +6,7 @@ export const profile = {
   email: 'theomaurin875@gmail.com',
   phone: '06 33 92 62 58',
   phoneHref: 'tel:+33633926258',
-  cv: '/images/CV_ThéoVM.pdf',
+  cv: '/images/CV_Vieilledent-Maurin_Theo.pdf',
   availability: 'Ingénieur DevOps chez Solutec',
   roles: ['Ingénieur DevOps', 'CI/CD & Automatisation', 'Infrastructure as Code', 'Docker & Kubernetes'],
 };
