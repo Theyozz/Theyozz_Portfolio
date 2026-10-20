@@ -292,7 +292,6 @@ const Hero = () => {
             {'  '}<span className="p">observe</span>: [<span className="s">'Prometheus'</span>, <span className="s">'Grafana'</span>],{'\n'}
             {'  '}<span className="p">alwaysLearning</span>: <span className="b">true</span>,{'\n'}
             {'};\n\n'}
-            <span className="c">{'// Apprendre toujours, c\'est aimer la vie'}</span>
           </Code>
         </CodeCard>
       </Grid>
