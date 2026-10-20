@@ -172,7 +172,6 @@ const Projects = () => (
                 )}
               </Media>
               <Body>
-                {p.featured && <Featured>★ Projet phare</Featured>}
                 <h3>{p.title}</h3>
                 <p>{p.description}</p>
                 <Tags>

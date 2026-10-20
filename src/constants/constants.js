@@ -91,9 +91,9 @@ export const projects = [
   },
   {
     title: 'AutoB3',
-    description: "Application web en Python / Flask adossée à PostgreSQL, avec une chaîne d'intégration et de déploiement continus sur GitLab.",
-    image: '',
-    tags: ['Python', 'Flask', 'PostgreSQL', 'GitLab CI'],
+    description: "Plateforme interne d'automatisation développée chez Orange en Python / Flask et PostgreSQL : automates, supervision et outils de production, livrés en continu via GitLab CI.",
+    image: '/images/AutoB3.png',
+    tags: ['Python', 'Flask', 'PostgreSQL', 'GitLab CI', 'Ansible', 'Docker', 'Grafana', 'Prometheus'],
     id: 1,
   },
   {
